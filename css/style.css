@@ -1,0 +1,55 @@
+/*
+	Kevin BERTAUX - Ubiquity 2021
+	Création		21/06/2021
+	Modification	21/06/2021
+*/
+
+/* Appel des polices */
+
+
+
+/* Set de couleurs */
+
+:root {
+	--text: #000;
+	--back: #FFF;
+}
+
+/* Sélection du texte */
+
+::-moz-selection {
+	color: #000;
+	background-color: var(--complementary);
+}
+
+::selection {
+	color: #000;
+	background-color: var(--complementary);
+}
+
+.site-header ::-moz-selection, .site-footer ::-moz-selection {
+	color: #000;
+	background-color: var(--complementary);
+}
+
+.site-header ::selection, .site-footer ::selection {
+	color: #000;
+	background-color: var(--complementary);
+}
+
+/* Navigation tabulaire */
+
+*:focus {
+	outline: .5px solid var(--complementary);
+	outline-offset: .3rem;
+}
+
+/* Typographie */
+
+body {
+	font-family: sans-serif;
+	font-size: 1.6rem;
+	line-height: 1.5;
+	color: var(--text);
+	background-color: var(--back);
+}
