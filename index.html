@@ -1,11 +1,11 @@
 <!--
 	Kevin BERTAUX - Ubiquity 2021
 	Création		21/06/2021
-	Modification	21/06/2021
+	Modification	22/06/2021
 -->
 
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
 	<meta charset="UTF-8">
@@ -19,9 +19,248 @@
 </head>
 
 <body>
-	
 
-	<script src="js/burger-menu.js"></script>
+	<header class="site-header">
+		<div class="container">
+			<div class="logo">
+				<img src="img/logo.svg" alt="Ubiquity logo" class="logo-image">
+				<span class="logo-text">Ubiquity</span>
+				<span class="baseline">Professional Web UI</span>
+			</div>
+			<nav class="nav-menu">
+				<ul class="menu-list" role="list">
+					<li class="menu-item"><a href="#slideshow" class="menu-link">Home</a></li>
+					<li class="menu-item"><a href="#features" class="menu-link">Features</a></li>
+					<li class="menu-item"><a href="#about" class="menu-link">About</a></li>
+					<li class="menu-item"><a href="#blog" class="menu-link">Blog</a></li>
+					<li class="menu-item"><a href="#fun-facts" class="menu-link">Fun Facts</a></li>
+					<li class="menu-item"><a href="#testimonials" class="menu-link">Testimonials</a></li>
+					<li class="menu-item"><a href="#footer" class="menu-link">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main class="main">
+		<section id="slideshow" class="slideshow">
+			<div class="container">
+				<h1 class="slide-title">At Ubiquity, We care</h1>
+				<div class="slide-arrow">
+					<img src="img/arrow_circle_left.svg" alt="left arrow">
+					<img src="img/arrow_circle_right.svg" alt="right arrow">
+				</div>
+				<p class="slide-desc container-narrow">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+					nonumy eirmod tempor invidunt ut
+					labore et dolore magna aliquyam erat, sed.</p>
+			</div>
+		</section>
+
+		<section id="features" class="features">
+			<div class="container">
+				<h2 class="feature-title">Our Services</h2>
+				<p class="feature-desc container-narrow">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+					tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+					et justo duo dolores et ea rebum.</p>
+				<ul class="services-list" role="list">
+					<li class="services-item">
+						<picture class="service-picture">
+							<img src="img/briefcase.svg" alt="A briefing case logo" class="service-image">
+						</picture>
+						<h3 class="service-title">Consultation</h3>
+						<p class="service-desc">Give a brief description of the feature that you are promoting. Keep it
+							short so that its easy for people to read.</p>
+					</li>
+					<li class="services-item">
+						<picture class="service-picture">
+							<img src="img/notes.svg" alt="A notebook logo" class="service-image">
+						</picture>
+						<h3 class="service-title">Blogging</h3>
+						<p class="service-desc">Give a brief description of the feature that you are promoting. Keep it
+							short so that its easy for people to read.</p>
+					</li>
+					<li class="services-item">
+						<picture class="service-picture">
+							<img src="img/star.svg" alt="A star logo" class="service-image">
+						</picture>
+						<h3 class="service-title">Social Media</h3>
+						<p class="service-desc">Give a brief description of the feature that you are promoting. Keep it
+							short so that its easy for people to read.</p>
+					</li>
+					<li class="services-item">
+						<picture class="service-picture">
+							<img src="img/bolt.svg" alt="A bolt logo" class="service-image">
+						</picture>
+						<h3 class="service-title">S.E.O</h3>
+						<p class="service-desc">Give a brief description of the feature that you are promoting. Keep it
+							short so that its easy for people to read.</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section id="about" class="about">
+			<div class="container">
+				<h2 class="about-title">What is Ubiquity</h2>
+				<p class="about-desc container-narrow">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+					tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+				<img src="img/site_mockup.webp" srcset="img/site_mockup@2x.webp 2x" alt="Ubiquity website mockup"
+					class="site-mockup">
+			</div>
+		</section>
+
+		<section id="blog" class="blog">
+			<div class="container">
+				<h2 class="blog-title">Latest Posts</h2>
+				<p class="blog-desc container-narrow">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+					tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+					et justo duo dolores et ea rebum.</p>
+				<ul class="blog-card-list" role="list">
+					<li class="blog-card-item">
+						<img src="img/open_space.webp" alt="An open space with desks and iMac" class="blog-card-image">
+						<h3 class="blog-card-title">Blog title 1</h3>
+						<p class="blog-card-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+							nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+						<a href="#" class="card-read-more">Read more...</a>
+					</li>
+					<li class="blog-card-item">
+						<img src="img/mackbook_iphone.webp" alt="A woman with a Macbook and an iPhone"
+							class="blog-card-image">
+						<h3 class="blog-card-title">Blog title 2</h3>
+						<p class="blog-card-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+							nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+						<a href="#" class="card-read-more">Read more...</a>
+					</li>
+					<li class="blog-card-item">
+						<img src="img/woman_writing.webp" alt="Two co-workers with pens and Macbook"
+							class="blog-card-image">
+						<h3 class="blog-card-title">Blog title 3</h3>
+						<p class="blog-card-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+							nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+						<a href="#" class="card-read-more">Read more...</a>
+					</li>
+					<li class="blog-card-item">
+						<img src="img/co-workers.webp" alt="A Macbook and pens and papers and a cup of coffee"
+							class="blog-card-image">
+						<h3 class="blog-card-title">Blog title 4</h3>
+						<p class="blog-card-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+							nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+						<a href="#" class="card-read-more">Read more...</a>
+					</li>
+					<li class="blog-card-item">
+						<img src="img/macbook_coffee_square.webp" alt="A woman writing someting and a cup of tea"
+							class="blog-card-image">
+						<h3 class="blog-card-title">Blog title 5</h3>
+						<p class="blog-card-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+							nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+						<a href="#" class="card-read-more">Read more...</a>
+					</li>
+					<li class="blog-card-item">
+						<img src="img/open_space.webp" alt="An open space with desks and iMac" class="blog-card-image">
+						<h3 class="blog-card-title">Blog title 6</h3>
+						<p class="blog-card-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+							nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+						<a href="#" class="card-read-more">Read more...</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section id="fun-facts">
+			<div class="container">
+				<h2 class="fact-title">Fun Facts</h2>
+				<ul class="fact-list" role="list">
+					<li class="fact-item"><strong>5</strong> people</li>
+					<li class="fact-item"><strong>243</strong> pageviews</li>
+					<li class="fact-item"><strong>23</strong> coffees</li>
+					<li class="fact-item"><strong>600</strong> hours</li>
+					<li class="fact-item"><strong>40</strong> days</li>
+					<li class="fact-item"><strong>17</strong> websites</li>
+				</ul>
+			</div>
+		</section>
+
+		<section id="testimonials">
+			<div class="container">
+				<article class="testimonial">
+					<img src="img/girl_working.webp" alt="A girl working on a Macbook" class="testimonial-image">
+					<div class="testimonial-article">
+						<h2 class="testimonial-title">Amanda Sigfried</h2>
+						<p class="testimonial-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+							nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+							vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</p>
+					</div>
+				</article>
+			</div>
+		</section>
+
+	</main>
+
+	<footer id="footer" class="site-footer">
+		<div class="container">
+			<div class="footer-section">
+				<h4 class="recent-post-title"></h4>
+				<ul class="recent-post-list">
+					<li class="recent-post-item"><a href="#">Lorem ipsum</a></li>
+					<li class="recent-post-item"><a href="#">Impedit deleniti</a></li>
+					<li class="recent-post-item"><a href="#">Quos expedita</a></li>
+					<li class="recent-post-item"><a href="#">Eum magnam</a></li>
+					<li class="recent-post-item"><a href="#">Officia nesciunt</a></li>
+				</ul>
+			</div>
+			<div class="footer-section">
+				<h4 class="recent-comments-title"></h4>
+				<ul class="recent-comment-list">
+					<li class="recent-comment-item"><a href="#">Lorem ipsum</a></li>
+					<li class="recent-comment-item"><a href="#">Impedit deleniti</a></li>
+					<li class="recent-comment-item"><a href="#">Quos expedita</a></li>
+					<li class="recent-comment-item"><a href="#">Eum magnam</a></li>
+					<li class="recent-comment-item"><a href="#">Officia nesciunt</a></li>
+				</ul>
+			</div>
+			<div class="footer-section">
+				<h4 class="tag-title">Tags</h4>
+				<ul class="tag-list" role="list">
+					<li class="tag-item">Insider</li>
+					<li class="tag-item">Check</li>
+					<li class="tag-item">Demo</li>
+					<li class="tag-item">Office</li>
+					<li class="tag-item">Work</li>
+					<li class="tag-item">Post</li>
+					<li class="tag-item">Management</li>
+				</ul>
+			</div>
+			<address class="footer-section">
+				<h4 class="adress-title">Ubiquity</h4>
+				<ul class="adress-list">
+					<li class="adress-item"><a href="https://www.google.com/maps">2499 Bee Street, Bear Lake Michigan
+							49614</a></li>
+					<li class="adress-item"><a href="tel:2315558100">231 - 555 - 8100</a></li>
+					<li class="adress-item"><a href="mailto:hello@domainename.com">hello@domainename.com</a></li>
+				</ul>
+			</address>
+
+			<div class="social">
+				<div class="copyright">
+					<p>&copy 2019 Ubiquity . All Rights Reserved.</p>
+					<div class="social-media-link">
+						<ul class="social-media-list" role="list">
+							<li class="social-media-item"><a href="https://www.facebook.com/" target="_blank"
+									aria-label="Go to Facebook"><img src="img/facebook.svg" alt="Facebook logo"
+										class="social-media-logo"></a></li>
+							<li class="social-media-item"><a href="https://twitter.com/" target="_blank"
+									aria-label="Go to Twitter"><img src="img/twitter.svg" alt="Twitter logo"
+										class="social-media-logo"></a></li>
+							<li class="social-media-item"><a href="https://www.linkedin.com/" target="_blank"
+									aria-label="Go to LinkedIn"><img src="img/linkedin.svg" alt="LinkedIn logo"
+										class="social-media-logo"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- <script src="js/burger-menu.js"></script> -->
 
 </body>
 
